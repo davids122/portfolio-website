@@ -1,0 +1,94 @@
+.home {
+    display: flex;
+    height: 85vh;
+    flex-direction: row;
+ }
+
+ .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .iconsBox {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5vh 1.5vh;
+    margin: 1vh 2vh;
+    height: 10vh;
+    border: 1px solid #00ADB5;
+    border-radius: 20px;
+ }
+
+ .iconImg {
+    -webkit-filter: invert(1);
+   filter: invert(1);
+   height: 4vh;
+   width: 4vh;
+ }
+
+ .iconLink {
+    margin: .5vh 0vh;
+ }
+
+ .name {
+    width: 85vi;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .hello {
+    color: #EEEEEE;
+    font-size: 11vh;
+    margin: 0 0;
+    text-align: left;
+    width: 41vh;
+    font-family: 'Monaco', monospace;
+    font-weight: bold;
+    padding-bottom: 3vh;
+ }
+
+ .david {
+    color: #EEEEEE;
+    font-size: 7vh;
+    margin: 0 0;
+    text-align: left;
+    width: 41vh;
+    font-family: 'Monaco', monospace;
+    font-weight: bold;
+    display: flex;
+   align-items: center;
+ }
+
+ @keyframes cursor-blink {
+   0% {
+     opacity: 0;
+   }
+ }
+
+ .david::after {
+   content: "";
+   width: .8vh;
+   height: 6vh;
+   background: #EEEEEE;
+   display: inline-block;
+   margin-left: 1.5vh;
+   animation: cursor-blink 1.5s steps(2) infinite;
+ }
+
+ .nameBox {
+   padding: 5vh 20vh 5vh 8vh;
+   height: 27vh;
+   border: 1px solid #EEEEEE;
+   border-radius: 30px;
+ }
+
+
+
+
+

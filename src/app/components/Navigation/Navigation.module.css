@@ -1,0 +1,55 @@
+.topNav {
+    margin: 0;
+    background-color: #222831;
+    opacity: 90%;
+}
+
+.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0px 15px;
+}
+
+.linkBox {
+    float: right;
+}
+
+.homeBox{
+    float: left;
+    display: block;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #222831;
+    margin: 25px 8px;
+    font-size:larger;
+    font-family: 'Courier New', monospace;
+}
+
+.link {
+    display: block;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #222831;
+    border: 1px solid #222831;
+    margin: 25px 8px;
+    border-radius: 15px;
+    font-size:larger;
+    font-family: 'Courier New', monospace;
+}
+
+.link:hover {
+    border-color: #00ADB5;
+}
+
+.blueLine {
+    height:2px;
+    border-width:0;
+    background-color: #00ADB5;
+    margin: 0px 12px;
+}
